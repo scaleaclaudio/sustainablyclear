@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sustainably Clear</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #f5f7f8;
+      color: #2b2b2b;
+    }
+    header {
+      background-color: #ffffff;
+      padding: 1.5rem 2rem;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      margin-left: 1.5rem;
+      text-decoration: none;
+      color: #2b2b2b;
+      font-weight: 500;
+    }
+    .hero {
+      padding: 6rem 2rem;
+      text-align: center;
+      background: linear-gradient(90deg, #d7f0dd, #eafaf1);
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.25rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .project, .resource {
+      background-color: #ffffff;
+      border-left: 4px solid #4caf50;
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    }
+    footer {
+      background-color: #f0f0f0;
+      padding: 2rem;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+    .lang-switch {
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div><strong>Sustainably Clear</strong></div>
+    <nav>
+      <a href="#about">Chi sono</a>
+      <a href="#articles">Articoli</a>
+      <a href="#projects">Progetti</a>
+      <a href="#resources">Risorse</a>
+      <a href="#contact">Contatti</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>La sostenibilità, spiegata in modo chiaro.</h1>
+    <p>Strategie, esempi e risorse per avvicinare persone e aziende ai temi ESG in modo semplice e concreto.</p>
+  </div>
+
+  <section id="about">
+    <h2>Chi sono</h2>
+    <p>Sono Claudio Scalea, professionista della sostenibilità con esperienza in rating ESG, stakeholder engagement e reporting. Il mio obiettivo è rendere la sostenibilità accessibile e utile, sia per aziende che per cittadini curiosi.</p>
+  </section>
+
+  <section id="articles">
+    <h2>Articoli</h2>
+    <div class="project">
+      <strong>CSRD: cosa cambia davvero?</strong>
+      <p>Una guida semplice alle nuove regole europee per la rendicontazione di sostenibilità.</p>
+    </div>
+    <div class="project">
+      <strong>ESG Ratings: cosa significano (e cosa no)?</strong>
+      <p>Comprendere davvero i criteri e i limiti dei principali rating ESG sul mercato.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Progetti</h2>
+    <div class="project">
+      <strong>Engagement per migliorare il rating Sustainalytics</strong>
+      <p>Riduzione del rischio ESG da 23,2 (Medium) a 14,5 (Low) per una banca europea.</p>
+    </div>
+    <div class="project">
+      <strong>Stakeholder engagement per la doppia materialità</strong>
+      <p>Oltre 100 stakeholder coinvolti per la valutazione CSRD di un gruppo bancario.</p>
+    </div>
+  </section>
+
+  <section id="resources">
+    <h2>Risorse</h2>
+    <div class="resource">
+      <strong>Checklist per stakeholder engagement</strong>
+      <p>Strumento pratico per organizzare e facilitare dialoghi ESG efficaci.</p>
+    </div>
+    <div class="resource">
+      <strong>Template strategia ESG</strong>
+      <p>Un esempio scaricabile di struttura strategica per PMI e grandi aziende.</p>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <p>Contatti: <a href="mailto:scaleaclaudio@gmail.com">scaleaclaudio@gmail.com</a> | <a href="https://linkedin.com/in/claudioscalea">LinkedIn</a></p>
+    <p class="lang-switch">🌐 IT | <a href="#">EN</a> (disponibile a breve)</p>
+    <p>&copy; 2025 Sustainably Clear – Claudio Scalea</p>
+  </footer>
+</body>
+</html>
